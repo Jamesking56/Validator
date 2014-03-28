@@ -1,0 +1,21 @@
+{
+    "name": "jamesking56/validator",
+    "description": "Laravel Validation abstracted to your namespace. As followed from Laracasts.com",
+    "keywords":["validator","validation","laravel"],
+    "authors": [
+        {
+            "name": "James King",
+            "email": "james@jamesking56.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Jamesking56\\Validator": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
